@@ -1,24 +1,4 @@
 h1 {text-align: center; font-size: 45px; font-family: Times New Roman; color: #660000}
-body {background: #e0b88f}
-
-.container {
-    display: flex;  
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.button {
-    background-color: #cc8665;
-    border: 0;
-    border-radius: 1em;
-    padding: 10px;
-    font-size: 20px;
-    min-width: 200px;
-    cursor: pointer;
-    flex: 1
-}
-
-.button:hover {
-    background-color: #c4714a
-}
+body {background: #E1B890}
+h2 {text-align: center; font-size: 30px; font-family: Times New Roman; color: #660000}
+n {text-align: center; font-size: 35px; font-family: Times New Roman; color: #660000}
