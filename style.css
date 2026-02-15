@@ -1,13 +1,53 @@
-h1 {text-align: center; font-size: 45px; font-family: Times New Roman; color: #660000}
-body {background: #e0b88f}
-h2 {text-align: center; font-size: 30px; font-family: Times New Roman; color: #660000}
-h3 {text-align: left; font-size: 20px; font-family: Times New Roman; color: #000000;}
-h4 {text-align: left; font-size: 22px; font-family: Times New Roman; color: #660000;}
-h5 {text-align: left; font-size: 14px; font-family: Arial; color: #000000;}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: Times New Roman;
+    color: #660000
+}
 
- a {display: inline-block; margin-right: 10px; padding-bottom: 5px;}
+body {
+    background: #e0b88f
+}
 
-n {text-align: center; font-size: 35px; font-family: Times New Roman; color: #660000}
+h2 {text-align: center;
+    font-size: 30px;
+    font-family: Times New Roman;
+    color: #660000
+}
+
+h3 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Times New Roman;
+    color: #000000;
+}
+
+h4 {
+    text-align: left;
+    font-size: 22px;
+    font-family: Times New Roman;
+    color: #660000;
+}
+
+h5 {
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial;
+    color: #000000;
+}
+
+a {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+n {
+    text-align: center;
+    font-size: 35px; font-family:
+    Times New Roman;
+    color: #660000
+}
 
 
 .container {
@@ -30,4 +70,8 @@ n {text-align: center; font-size: 35px; font-family: Times New Roman; color: #66
 
 .button:hover {
     background-color: #c4714a
+}
+
+.b{
+    padding : 10px
 }
