@@ -29,3 +29,7 @@ n {text-align: center; font-size: 35px; font-family: Times New Roman; color: #66
 .button:hover {
     background-color: #c4714a
 }
+
+.a{
+    padding : 10px
+}
