@@ -9,7 +9,8 @@ body {
     background: #e0b88f
 }
 
-h2 {text-align: center;
+h2 {
+    text-align: center;
     font-size: 30px;
     font-family: Times New Roman;
     color: #660000
@@ -72,6 +73,39 @@ n {
     background-color: #c4714a
 }
 
-.b{
+.b {
     padding : 10px
+}
+
+details{
+    display: block;
+    margin: 0 auto;
+    background: #ffd7b7;
+    width: 95%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+summary {
+    display: block;
+    padding: 0.3em 1.5em 0.3em 0.5em;
+    border-bottom: 3px solid rgb(211, 175, 129);
+    font-size:1.2em;
+    cursor: pointer;
+    position: relative;
+}
+
+summary:before{
+    right: 0.3em;
+    top: 0.4em;
+    background: url(arrow.png) 50% 50% / 1em 1em;
+    width: 1em;
+    height: 1em;  
+    content: "";
+    position: absolute;
+    transition: transform .5s;
+}
+
+details[open] > summary:before {
+    transform: rotate(90deg);
 }
